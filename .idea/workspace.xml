@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c99531b8-4d8c-4bf9-9dea-6502653f38ff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mts_homework/Config/Properties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mts_homework/Consumers/ConsumerKafkaConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mts_homework/Producers/ProducerKafkaConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mts_homework/Repository/OrderRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mts_homework/Services/OrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mts_homework/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mts_homework/Repository/OrderStatusNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mts_homework/Services/OrderStatusListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mts_homework/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mts_homework/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +50,9 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/FLaMe/welcome-to-docker",
     "onboarding.tips.debug.path": "C:/Users/FLaMe/Documents/Java homework/Final/src/main/java/org/example/Main.java",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
   <component name="RecentsManager">
