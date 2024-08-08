@@ -1,6 +1,6 @@
 package mts_homework.Repository;
 
-import jakarta.persistence;
+import javax.persistence.*;
 import lombok.*;
 @Getter
 @Setter
@@ -9,8 +9,8 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Order {
- /*   @Id
-    @Column(name = "id")
+    @Id
+    @Column(name = "order_id")
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "id_seq")
     @SequenceGenerator(name = "id_seq", sequenceName = "id_seq", allocationSize = 1)
     private Long id;
@@ -21,5 +21,5 @@ public class Order {
     private String status;
     private boolean isPresentInWarehouse;
     private boolean isPackaged;
-    private boolean isDelivered;*/
+    private boolean isDelivered;
 }

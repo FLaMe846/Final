@@ -5,26 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c99531b8-4d8c-4bf9-9dea-6502653f38ff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/initDB.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mts_homework/Delegate/CheckProductAvailability.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mts_homework/Delegate/Constants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mts_homework/Delegate/CreateOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mts_homework/Delegate/HelloDelegate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mts_homework/Delegate/SendMessageDelegate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mts_homework/Delegate/StatusChangedDeleagate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mts_homework/MessageParams/Request.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mts_homework/MessageParams/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mts_homework/MessageParams/Start.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mts_homework/Services/MessageService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mts_homework/Consumers/ReceiveMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mts_homework/Delegate/InProcessNotifyStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mts_homework/Delegate/NotifyStatus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mts_homework/Config/Properties.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mts_homework/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mts_homework/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mts_homework/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mts_homework/Repository/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mts_homework/Repository/OrderStatusNotification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mts_homework/Repository/OrderStatusNotification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/initDB.sql" beforeDir="false" afterPath="$PROJECT_DIR$/initDB.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mts_homework/Delegate/CreateOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mts_homework/Delegate/HelloDelegate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mts_homework/Delegate/HelloDelegate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mts_homework/Delegate/SendMessageDelegate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mts_homework/Delegate/SendMessageDelegate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mts_homework/Delegate/StatusChangedDeleagate.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mts_homework/Repository/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mts_homework/Repository/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mts_homework/Repository/OrderStatusNotification.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/BPMN/ProcessDiag — копия.bpmn" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/BPMN/ProcessDiag.bpmn" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/BPMN/ProcessDiag.bpmn" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +61,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/FLaMe/Documents/Java homework/Final",
+    "last_opened_file_path": "C:/Users/FLaMe/Documents/Java tutorial/Shop-app-backend-master",
     "onboarding.tips.debug.path": "C:/Users/FLaMe/Documents/Java homework/Final/src/main/java/org/example/Main.java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -158,16 +151,5 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
     <option name="LAST_COMMIT_MESSAGE" value="1" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/mts_homework/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

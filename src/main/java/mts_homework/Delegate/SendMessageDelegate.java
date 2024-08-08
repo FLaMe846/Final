@@ -33,7 +33,7 @@ public class SendMessageDelegate implements JavaDelegate {
     private RuntimeService runtimeService;
 
     @Autowired
-    private KafkaTemplate<String, String> msg;
+    private KafkaTemplate<String, ServiceRequest> msg;
 
     private final Logger logger = LoggerFactory.getLogger(this.getClass());
 
