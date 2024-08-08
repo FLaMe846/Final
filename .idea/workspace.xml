@@ -5,10 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c99531b8-4d8c-4bf9-9dea-6502653f38ff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mts_homework/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mts_homework/Repository/OrderStatusNotification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mts_homework/Services/OrderStatusListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/initDB.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mts_homework/Delegate/CheckProductAvailability.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mts_homework/Delegate/Constants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mts_homework/Delegate/CreateOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mts_homework/Delegate/HelloDelegate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mts_homework/Delegate/SendMessageDelegate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mts_homework/Delegate/StatusChangedDeleagate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mts_homework/MessageParams/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mts_homework/MessageParams/Response.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mts_homework/MessageParams/Start.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/mts_homework/Services/MessageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mts_homework/Config/Properties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mts_homework/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mts_homework/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mts_homework/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mts_homework/Repository/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mts_homework/Repository/OrderStatusNotification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mts_homework/Repository/OrderStatusNotification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/BPMN/ProcessDiag.bpmn" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/BPMN/ProcessDiag.bpmn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,9 +47,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2kCaXBGbLlyU4xmR1Oqij3GfcTe" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -44,30 +60,67 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Docker.docker-compose.yml: Compose Deployment.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/FLaMe/welcome-to-docker",
+    "last_opened_file_path": "C:/Users/FLaMe/Documents/Java homework/Final",
     "onboarding.tips.debug.path": "C:/Users/FLaMe/Documents/Java homework/Final/src/main/java/org/example/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\FLaMe\Documents\Java homework\Final" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\FLaMe\Documents\Java homework\Final\src\main\resources\BPMN" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="mts_homework.Delegate" />
       <recent name="mts_homework.Producers" />
       <recent name="mts_homework.Consumers" />
     </key>
+  </component>
+  <component name="RunManager" selected="Docker.docker-compose.yml: Compose Deployment">
+    <configuration name="App" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="mts_homework.OrderApplication" />
+      <module name="Final" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="docker-compose.yml: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="envFilePath" value="" />
+          <option name="sourceFilePath" value="docker-compose.yml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Application.App" />
+      <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.docker-compose.yml: Compose Deployment" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
         <option value="jdk-11.0.22-corretto-11.0.22-4caba194b151-868cef46" />
+        <option value="jdk-22-openjdk-22-3183f394aec4-bad0321e" />
       </set>
     </attachedChunks>
   </component>
@@ -111,7 +164,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/mts_homework/Main.java</url>
-          <line>7</line>
+          <line>13</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

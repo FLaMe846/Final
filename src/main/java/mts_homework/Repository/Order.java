@@ -1,0 +1,25 @@
+package mts_homework.Repository;
+
+import jakarta.persistence;
+import lombok.*;
+@Getter
+@Setter
+@Entity
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+public class Order {
+ /*   @Id
+    @Column(name = "id")
+    @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "id_seq")
+    @SequenceGenerator(name = "id_seq", sequenceName = "id_seq", allocationSize = 1)
+    private Long id;
+
+    @Column(name = "product", nullable = false)
+    private String product;
+    private int quantity;
+    private String status;
+    private boolean isPresentInWarehouse;
+    private boolean isPackaged;
+    private boolean isDelivered;*/
+}

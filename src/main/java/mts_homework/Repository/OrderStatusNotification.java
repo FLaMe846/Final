@@ -1,8 +1,9 @@
 package mts_homework.Repository;
 
-import lombok.Getter;
-import lombok.Setter;
-
+import lombok.*;
+import jakarta.persistence.*;
+import java.util.Collection;
+import java.util.List;
 @Getter
 @Setter
 public class OrderStatusNotification {
