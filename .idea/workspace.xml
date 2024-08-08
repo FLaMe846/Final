@@ -5,18 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c99531b8-4d8c-4bf9-9dea-6502653f38ff" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/mts_homework/Consumers/ReceiveMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mts_homework/Delegate/InProcessNotifyStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/mts_homework/Delegate/NotifyStatus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/initDB.sql" beforeDir="false" afterPath="$PROJECT_DIR$/initDB.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mts_homework/Delegate/CreateOrder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mts_homework/Delegate/HelloDelegate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mts_homework/Delegate/HelloDelegate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mts_homework/Delegate/CheckProductAvailability.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mts_homework/Delegate/CheckProductAvailability.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mts_homework/Delegate/InProcessNotifyStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mts_homework/Delegate/InProcessNotifyStatus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mts_homework/Delegate/SendMessageDelegate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mts_homework/Delegate/SendMessageDelegate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mts_homework/Delegate/StatusChangedDeleagate.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/mts_homework/Repository/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mts_homework/Repository/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mts_homework/Repository/OrderStatusNotification.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/BPMN/ProcessDiag — копия.bpmn" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mts_homework/Repository/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mts_homework/Repository/OrderRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mts_homework/Services/MessageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mts_homework/Services/MessageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mts_homework/Services/OrderService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mts_homework/Services/OrderStatusListener.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/BPMN/ProcessDiag.bpmn" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/BPMN/ProcessDiag.bpmn" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +63,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing"
   }
 }]]></component>
   <component name="RecentsManager">

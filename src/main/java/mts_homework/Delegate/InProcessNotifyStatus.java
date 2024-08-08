@@ -9,7 +9,7 @@ import java.util.logging.Level;
 @Log
 @Component
 public class InProcessNotifyStatus {
-    @Override
+
     public void execute(DelegateExecution execution) throws Exception {
         log.log(Level.INFO, "executed InProcessNotifyStatus: {}", execution);
         String status = (String) execution.getVariableLocal(Constants.STATUS);

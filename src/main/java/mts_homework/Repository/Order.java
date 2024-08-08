@@ -13,13 +13,9 @@ public class Order {
     @Column(name = "order_id")
     @GeneratedValue(strategy = GenerationType.SEQUENCE, generator = "id_seq")
     @SequenceGenerator(name = "id_seq", sequenceName = "id_seq", allocationSize = 1)
-    private Long id;
 
-    @Column(name = "product", nullable = false)
+    @Column(name = "name", nullable = false)
     private String product;
     private int quantity;
     private String status;
-    private boolean isPresentInWarehouse;
-    private boolean isPackaged;
-    private boolean isDelivered;
 }

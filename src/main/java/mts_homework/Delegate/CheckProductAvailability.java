@@ -19,6 +19,6 @@ public class CheckProductAvailability implements JavaDelegate {
     public void execute(DelegateExecution execution) throws Exception {
         log.log(Level.INFO,"executed CheckProductAvailability: {}", execution);
 
-        execution.setVariableLocal(ConstValues.Ava);
+        execution.setVariableLocal(Constants.STATUS, "ASSEMBLED");
     }
 }
